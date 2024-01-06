@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 body {
-    font-family: 'Syne Mono', monospace; 
+    font-family: 'Syne Mono', monospace;
+    background-image: url(../images/background.png);
 }

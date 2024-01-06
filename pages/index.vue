@@ -1,9 +1,18 @@
 <template>
-  <div>
-    <p>My Portfolio</p>
-  </div>
+  <Loader />
 </template>
 
-<script setup></script>
+<script setup>
+import { useRouter } from "vue-router";
+const router = useRouter();
 
-<style lang="scss" scoped></style>
+definePageMeta({
+  layout: "loadingpage",
+});
+
+onMounted(() => {
+  setTimeout(() => {
+    router.push("/home");
+  }, 2000);
+});
+</script>
