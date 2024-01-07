@@ -3,6 +3,7 @@
     <nav class="w-full flex justify-center items-center p-5 h-[10vh]">
       <ul class="flex gap-5">
         <li
+          v-motion-fade
           :enter="{ opacity: 0.5 }"
           :hovered="{ opacity: 1 }"
           v-for="item in list"

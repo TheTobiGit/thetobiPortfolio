@@ -3,7 +3,10 @@
     <div class="">
       <PageTitle :title="title" />
     </div>
-    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row">
+    <div
+      v-motion-slide-visible-left
+      class="flex flex-col items-center justify-center gap-5 lg:flex-row"
+    >
       <div class="flex flex-col items-center">
         <p class="text-sm translate-y-8">
           this is me <br />

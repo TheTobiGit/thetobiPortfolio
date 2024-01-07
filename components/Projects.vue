@@ -9,6 +9,7 @@
         class="flex flex-wrap gap-20 lg:grid lg:grid-cols-3 lg:gap-40 justify-evenly *:select-none"
       >
         <div
+          v-motion-fade-visible
           class="card h-[360px] border w-[300px] border-black bg-gradient-to-t from-slate-800 via-gray-500 to-black z-30 cursor-pointer"
         >
           <div
@@ -36,6 +37,7 @@
         </div>
 
         <div
+          v-motion-fade-visible
           class="card h-[360px] border w-[300px] border-black bg-gradient-to-t from-black via-gray-700 to-green-700 z-30 cursor-pointer"
         >
           <div
@@ -63,6 +65,7 @@
         </div>
 
         <div
+          v-motion-fade-visible
           class="card h-[360px] border w-[300px] border-black bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-white via-lime-600 to-black z-30 cursor-pointer"
         >
           <div
@@ -90,6 +93,7 @@
         </div>
 
         <div
+          v-motion-fade-visible
           class="card h-[360px] border w-[300px] border-black bg-gradient-to-tr from-black via-amber-600 to-gray-300 z-30 cursor-pointer"
         >
           <div

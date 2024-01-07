@@ -26,7 +26,7 @@
           </p>
         </div>
       </div>
-      <footer class="self-start mt-auto mb-6 lg:mb-0">
+      <footer class="self-start mt-auto mb-6 lg:mb-0 lg:mr-10">
         <p class="text-xl">{{ text[0] }}</p>
         <p class="text-xl">{{ text[1] }}</p>
         <p class="text-xl">{{ text[2] }}</p>

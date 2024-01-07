@@ -5,6 +5,7 @@
     </div>
 
     <div
+      v-motion-slide-visible-right
       class="text-[5.8rem] flex flex-col lg:flex-row items-center lg:justify-center lg:items-start flex-wrap gap-5 lg:gap-20"
     >
       <div class="w-screen p-1 lg:w-auto">

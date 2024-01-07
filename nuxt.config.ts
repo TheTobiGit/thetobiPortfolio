@@ -6,8 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
     "@nuxtjs/google-fonts",
-    'floating-vue/nuxt',
-    
+  '@vueuse/motion/nuxt'
   ],
 
 
@@ -17,6 +16,27 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "TheTobi"
+    }
+  },
+
+  runtimeConfig: {
+    public: {
+      motion: {
+        directives: {
+          'pop-bottom': {
+            initial: {
+              scale: 0,
+              opacity: 0,
+              y: 100,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              y: 0,
+            }
+          }
+        }
+      }
     }
   }
 })
