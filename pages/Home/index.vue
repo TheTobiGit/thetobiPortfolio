@@ -1,11 +1,12 @@
 <template>
   <Introduction />
-  <Pill class="" />
+  <Pill />
   <About />
+  <Skills />
+  <Projects />
+  <Contact />
 </template>
 
-<script setup>
-import About from "../../views/About.vue";
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>

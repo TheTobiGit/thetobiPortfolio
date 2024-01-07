@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-[10vh] bg-gray-100 text-black text-4xl -rotate-[3deg] flex items-center lg:mt-[20vh] mt-[5vh] justify-end"
+    class="h-[10vh] bg-gray-100 text-black text-4xl -rotate-[3deg] flex items-center lg:mt-[20vh] mt-[5vh] justify-end overflow-hidden"
   >
     <ul class="flex gap-20 pr-5 list-disc">
       <li class="min-w-fit">{{ title[0] }}</li>

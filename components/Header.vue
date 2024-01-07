@@ -21,24 +21,6 @@
 <script setup>
 const list = ["about", "skills", "projects", "contact"];
 
-const text = ["gideon sarfo.", "frontend developer."];
-
-import { onMounted, onBeforeUnmount } from "vue";
-
-onMounted(() => {
-  document.addEventListener("mousemove", updateCursor);
-});
-
-onBeforeUnmount(() => {
-  document.removeEventListener("mousemove", updateCursor);
-});
-
-function updateCursor(event) {
-  const cursor = document.getElementById("cursor");
-  cursor.style.left = event.clientX + "px";
-  cursor.style.top = event.clientY + "px";
-}
-
 function scrollToSection(event) {
   event.preventDefault();
   const target = event.target.getAttribute("href");

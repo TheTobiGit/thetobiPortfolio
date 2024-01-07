@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
     "@nuxtjs/google-fonts",
+    'floating-vue/nuxt',
+    
   ],
 
 
