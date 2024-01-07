@@ -1,10 +1,10 @@
 <template>
   <section
-    class="flex flex-col w-full gap-20 mt-20 overflow-hidden"
+    class="flex flex-col w-full gap-20 mt-20 overflow-hidden lg:mt-40"
     id="contact"
   >
     <div
-      class="flex flex-col items-center gap-5 p-2 lg:flex-row lg:justify-between"
+      class="flex flex-col items-center gap-40 p-2 lg:gap-5 lg:flex-row lg:justify-between"
     >
       <div class="self-start h-full break-all">
         <p class="text-xl uppercase">{{ question }}</p>
