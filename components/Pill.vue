@@ -3,7 +3,7 @@
     <div class="absolute bottom-0 right-0 p-5 w-fit">
       <div class="flex flex-col items-center">
         <p>click me</p>
-        <div class="text-3xl flex gap-3 items-center justify-center">
+        <div class="flex items-center justify-center gap-3 text-3xl">
           <Icon
             name="ic:sharp-insert-drive-file"
             class="opacity-[30%] hover:opacity-[100%] transition-opacity cursor-pointer"

@@ -1,8 +1,16 @@
 <template>
-  <div class="h-[80vh] flex flex-col justify-center items-center">
-    <div class="max:w-max flex flex-col wrap">
-      <p class="text-8xl text-center">gideon sarfo.</p>
-      <p class="text-right mr-5">.frontend developer.</p>
+  <div class="h-[90vh] flex flex-col justify-center items-center">
+    <div class="flex flex-col max:w-max wrap">
+      <p class="text-center text-8xl">gideon sarfo.</p>
+      <p class="mr-5 text-right">.frontend developer.</p>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  setup() {
+    return {};
+  },
+};
+</script>

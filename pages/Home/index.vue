@@ -1,8 +1,11 @@
 <template>
   <Introduction />
-  <Pill />
+  <Pill class="" />
+  <About />
 </template>
 
-<script></script>
+<script setup>
+import About from "../../views/About.vue";
+</script>
 
 <style lang="scss" scoped></style>
