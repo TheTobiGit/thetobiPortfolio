@@ -12,7 +12,7 @@
         <img src="../assets/images/me.gif" alt="" class="lg:h-[50vh]" />
       </div>
       <p class="text-balance p-3 lg:max-w-[40vw] text-lg leading-8">
-        I'm Gideon Sarfo, a frontend developer based in Ghana with four years of
+        I'm Gideon Sarfo, a frontend developer based in Ghana with two years of
         experience. I'm deeply passionate about creating captivating web
         experiences through code. My journey is all about turning concepts into
         digital realities. I thrive on building beautiful, functional, and
