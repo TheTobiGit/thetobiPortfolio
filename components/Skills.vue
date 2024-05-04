@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="w-screen p-1 lg:w-auto">
-        <p class="text-sm">backend.</p>
+        <p class="text-sm">backend and auth.</p>
         <div class="flex flex-wrap justify-center lg:gap-5 lg:flex-col">
           <Icon
             name="mdi:nodejs"
@@ -64,6 +64,11 @@
           />
           <Icon
             name="tabler:brand-supabase"
+            class="transition-opacity animate-move-slowly"
+            color="inherit"
+          />
+          <Icon
+            name="mdi:firebase"
             class="transition-opacity animate-move-slowly"
             color="inherit"
           />
